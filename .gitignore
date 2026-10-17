@@ -1,0 +1,7 @@
+# repo นี้เป็น private — ไฟล์ข้อมูลผู้เข้าร่วม (*.csv) ถูกเก็บไว้ใน repo โดยตั้งใจ
+# ห้ามเปลี่ยน repo เป็น public ตามข้อกำหนดของรายวิชา
+
+# Windows / Jupyter / Python
+desktop.ini
+.ipynb_checkpoints/
+__pycache__/
