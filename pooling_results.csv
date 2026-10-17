@@ -1,0 +1,17 @@
+target,evaluated on,train on,model,train rows,cv_MAE,test_MAE
+sleep_hours_next,lifesnaps,lifesnaps only,ridge,2785,1.046,0.93
+sleep_hours_next,lifesnaps,lifesnaps only,hist-GBM,2785,1.038,0.978
+sleep_hours_next,lifesnaps,lifesnaps + other,ridge,33349,1.056,0.953
+sleep_hours_next,lifesnaps,lifesnaps + other,hist-GBM,33349,1.018,0.941
+sleep_hours_next,globem,globem only,ridge,30564,1.117,1.159
+sleep_hours_next,globem,globem only,hist-GBM,30564,1.102,1.143
+sleep_hours_next,globem,globem + other,ridge,33349,1.117,1.159
+sleep_hours_next,globem,globem + other,hist-GBM,33349,1.102,1.143
+sleep_efficiency_next,lifesnaps,lifesnaps only,ridge,2785,2.512,2.0
+sleep_efficiency_next,lifesnaps,lifesnaps only,hist-GBM,2785,3.121,2.192
+sleep_efficiency_next,lifesnaps,lifesnaps + other,ridge,33349,2.416,2.018
+sleep_efficiency_next,lifesnaps,lifesnaps + other,hist-GBM,33349,2.52,2.061
+sleep_efficiency_next,globem,globem only,ridge,30564,2.097,2.18
+sleep_efficiency_next,globem,globem only,hist-GBM,30564,2.108,2.187
+sleep_efficiency_next,globem,globem + other,ridge,33349,2.095,2.184
+sleep_efficiency_next,globem,globem + other,hist-GBM,33349,2.103,2.175
